@@ -1,0 +1,27 @@
+button:hover {
+    cursor:pointer;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+.modo_sexo {
+    height: 2000px;
+    position: absolute;
+    display: none;
+    width: 100%;
+    background-color: red;
+    z-index: 1000; 
+    /* La propiedad CSS z-index indica el orden de un elemento posicionado y sus descendientes. Cuando varios elementos se superponen, los elementos con mayor valor z-index cubren a aquellos con menor valor (z-indez es lo que hace que al decir "si" se oculte mi video y no se muestre al mismo tiempo que la imagen). */
+}
+
+#btn_si {
+    background-color: cadetblue;
+    border-color: cadetblue;
+    color: azure;
+    font-size: xx-large;
+    padding: 32px;
+    text-align: center;
+    border-radius: 5px;
+}
